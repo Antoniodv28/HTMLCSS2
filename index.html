@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi CV</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+    header {
+        background-color: #343a40;
+        color: white;
+        padding: 20px;
+    }
+    h1 {
+        margin: 0;
+    }
+    .player-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .player {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+    }
+    .player img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .player h3 {
+        margin: 10px 0 5px;
+    }
+    .player p {
+        font-size: 14px;
+        color: #555;
+    }
+    .player h4 {
+        font-size: 16px;
+        margin-top: 10px;
+        color: #333;
+    }
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Antonio Del Valle</h1>
+        <p>Desarrollador Frontend</p>
+    </header>
+<nav>
+    <p>Ir a:</p>
+    <ul>
+        <li><a href="futbol.html">Mejores Jugadores</a></li>
+        <li><a href="viajes.html">Lugares Turisticos</a></li>
+      </ul>
+      
+</nav>
+
+    <section id="descripcion">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy Antonio Del Valle, un apasionado del desarrollo frontend. Me encanta crear interfaces de usuario atractivas y funcionales usando tecnologías web como HTML, CSS, JavaScript y React.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git y GitHub</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Jugar fútbol</li>
+            <li>Leer libros de tecnología</li>
+            <li>Desarrollar proyectos personales</li>
+        </ul>
+    </section>
+
+    <section id="foto">
+        <h2>Foto de Perfil</h2>
+        <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/316935619_8369253189783156_6767150018508543343_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEnsyvPWwSMQm-6vV7K_KS4kSBqshW1xKWRIGqyFbXEpT9rBASzbQx26ZdjhMvHC2Xn_fJM-hk2M6BNOmEvKxQv&_nc_ohc=ODTYwJhfpOcQ7kNvgEIUnIo&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=AhO9l7rJvBgaK4c-3lgxOFE&oh=00_AYA2NF1ES0nUYApe7dxlP95AmsMT1p0luHN4v0pYUFr72g&oe=6734209D" alt="Foto de Antonio Del Valle" width="150" height="150">
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
